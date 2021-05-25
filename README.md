@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run api`
+
+Runs the app server. Server is using port 3001 (http://localhost:3001)<br />
+
+Next, in the project directory, you can run:
+
 ### `npm start`
 
 Runs the app in the development mode.<br />

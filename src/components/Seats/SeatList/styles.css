@@ -1,0 +1,10 @@
+.seats-page-wrapper {
+  width: minmax(min-content, 80%)
+}
+
+.seats-container {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 10px 10px;
+}

@@ -6,9 +6,9 @@ In the project directory, you can run:
 
 ### `npm run api`
 
-Runs the app server. Server is using port 3001 (http://localhost:3001)<br />
+Runs the app server. The server uses port 3001 (http://localhost:3001)<br />
 
-Next, in the project directory, you can run:
+Then in the project directory in a separate terminal you can run:
 
 ### `npm start`
 

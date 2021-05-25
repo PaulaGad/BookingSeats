@@ -40,35 +40,6 @@ const FormSeats = () => {
     setIsModalVisible(false)
   };
 
-  // const handleSeatsTogether = () => { 
-  //   for (let x = 0; x < 10; x++) {
-  //     let n = 0;
-  //     for (let y = 0; y < 15; y++) {
-  //       const id = `s${x}${y}`;
-  //       const seat = seats.find(seat => seat.id === id);
-  //       if (seat) {
-  //         if (seat.reserved) {
-  //           n = 0;
-  //         } else if (!seat.reserved) {
-  //           n += 1;
-  //           if (n === numberOfSeats) {
-  //             for (let i = 0; i < numberOfSeats; i++) {
-  //               const selectSeatId = `s${x}${y-i}`;
-  //               const cords = {
-  //                 x: x,
-  //                 y: y-i
-  //               };
-  //               const seatSeleted = { id: selectSeatId, cords, reserved: false, selected: true }
-  //               dispatch(selectSeatTogether(selectSeatId, seatSeleted))
-  //             }
-  //             return;
-  //           } 
-  //         }
-  //       } else n = 0;
-  //     }
-  //   }
-  // };
-
   const handleSeatsTogether = () => { 
     let n = 0;
     for (let i = 0; i < numberOfavailableSeats; i++) {

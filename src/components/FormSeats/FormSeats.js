@@ -67,7 +67,7 @@ const FormSeats = () => {
       };
     };
 
-  const handleSeatsSeparately = async () => { 
+  const handleSeatsSeparately = () => { 
     for (let i = 0; i < numberOfSeats; i++) {
       const seat = seatsUnreserved[i];
       if (seat) {
